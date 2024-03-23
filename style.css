@@ -2,17 +2,30 @@
     background-color: rgb(127, 251, 255);
 }
 .minor{
-    margin:5%;;
+    margin:5%;
     
+}
+@media only screen and(min-width:280) and (max-width:1024){
+    .minor{
+        margin:1%;
+    }
 }
 .nav{
     background-color: rgb(18, 114, 114);
     display: flex;
 }
+@media only screen and(min-width:280) and (max-width:1024){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 .listnav{
     display:flex;
     list-style: none;
     gap:10%;
+    font-size: 1rem;
     color: aliceblue;
     margin-left: 19%;
     margin-top: 8%;
@@ -39,8 +52,9 @@ width: 55px;
     background-color: blue;
     color: aliceblue;
     margin-left: 400%;
+    padding:15px;
     width:100%;
-    height:50px;
+    height:auto;
 }
 .cloudStorage{
     background-color: rgb(7, 39, 59);
@@ -57,13 +71,14 @@ width: 55px;
 .wheels{
     float:left;
     width: 6%;
+    height: auto;
     border-radius: 50%;
 }
 .power{
     color: yellow;
 }
 .cloudheading{
-    font-size: 400%;
+    font-size: 5rem;
 }
 .cloudbuttons{
     display: flex;
@@ -96,15 +111,23 @@ margin-left:10% ;
 }
 .rightphoto{
  width:100%;
- height:100% ;
+ height:auto ;
  border-radius: 20px;
 }
 .personimage{
     border-radius: 20px;
+    width: 80%;
+    height: auto;
+
+}
+@media only screen and (min-width:280) and (max-width:1024){
+    .personimage{
+        border-radius: 2px;
+    }
 }
 .Advantages{
     display:flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding:20px;
     background-color: aliceblue;
     }
@@ -119,6 +142,10 @@ margin-left:10% ;
 }
 p1{
     font-size: 80%;
+}
+.advheading{
+    font-size: 2rem;
+    margin-left: 5%;
 }
 .key{
     width:25%;
@@ -230,10 +257,19 @@ padding-top: 10px;
 }
 .blogstatements{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
     margin-left: 10%;
     margin-top: 5%;
+}
+.coffee{
+    width: 100%;
+    height:auto ;
+}
+.coffee1{
+    width: 100%;
+    height:auto ;
 }
 .h16{
     color: aqua;
@@ -327,4 +363,281 @@ padding-top: 10px;
 }
 .footerhead{
     margin-left: 25%;
+}
+@media only screen and(min-width:280) and(max-width:1024){ 
+    .listnav{
+        display:flex;
+        flex-direction: column;
+        gap:1%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .hammenu{
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: 1%;
+        }
+        .hmenu{
+            border: 1px ;
+            height: 1px;
+            display: flex;
+            flex-wrap: wrap;
+           width: 1px;
+           }
+           .heading{
+            margin-left: 1%;
+            font-size: 1px;
+        }
+        .navbutton{
+            margin-left: 10%;
+            width:1%;
+            height:1px;
+        }
+        .cloudStorage{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding-top: 5px;
+        }
+        .first{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 5%;
+        
+        }
+        .wheels{
+            float:left;
+            width: 2%;
+            border-radius: 10%;
+        }
+        .cloudheading{
+            font-size: 40%;
+        }
+        .cloudbuttons{
+            display: flex;
+            flex-wrap: wrap;
+         gap: 1%;
+         margin-top: 5%;
+        }
+        .cloudbutton1{
+            width:15%;
+            height:30px;
+            font-size: 4%;
+            border-radius: 10px;
+        
+        }
+        .cloudbutton2{
+            width:30%;
+            height:70px;
+            color: rgb(8, 94, 94);
+            font-size: 150%;
+            border-radius: 20px;
+        
+        }
+        .person{
+            margin-left: 20%;
+            margin-top: 5%;
+        }
+        .right{
+        margin-left:10% ;
+        }
+        .rightphoto{
+         width:1%;
+         height:1% ;
+         border-radius: 1px;
+        }
+        
+        .Advantages{
+            display:flex;
+            flex-direction: column;
+            padding:20px;
+            background-color: aliceblue;
+            }
+        .adv{
+            color: brown;
+        }
+        .paragraphs{
+            display:flex;
+            gap: 15%;
+            margin-left: 15%;
+            margin-top: 5%;
+        }
+        p1{
+            font-size: 80%;
+        }
+        .advheading{
+            font-size: 0%;
+            margin-left: 5%;
+        }
+        .key{
+            width:25%;
+            margin-left: 20%;
+        }
+        .lock{
+            width:25%;
+            margin-left: 20%;
+        
+        }
+        .finger{
+            width:15%;
+            margin-left: 10%;
+        
+        }
+        .Advantagesheading{
+            margin-left: 40%;
+            margin-top: 2%;
+        }
+        .tick{
+            width:6%;
+        }
+        .lastadvantage{
+            display:flex;
+            gap:5%;
+            margin-top: 10%;
+        }
+        .unlimited{
+            width:100%;
+        }
+        .lasth{
+            color: brown;
+        }
+        .laststatement{
+            margin-top: 40%;
+        }
+        .points{
+            display:flex;
+            margin-top: 10%;
+            
+        }
+        .ticks{
+            display: flex;
+            flex-direction: column;
+            gap: 20%;
+        
+        }
+        .wordpoint{
+            margin-right: 10%;
+            font-size: 100%;
+        }
+        .advantagesbutton{
+        margin-top: 10%;
+        background-color: blueviolet;
+        width:30%;
+        height: 50px;
+        color:aliceblue;
+        font-size: 100%;
+        border-radius: 20px;
+        }
+        .lastwords{
+            margin-right: 10%;
+        }
+        .statisticsplan{
+        background-color:rgb(170, 250, 233) ;   
+        padding-top: 10px;
+         
+            
+        }
+        .planheading{
+         margin-left:40%;
+        }
+        .explore{
+         padding: 20px;
+         background-color: lightsalmon;
+         border-radius: 20px;
+         margin: 2%;
+         margin-left: 10%;
+        }
+        .ipadimage{
+            width:80%;
+            margin-top: 5%;
+            margin-left: 10%;
+        }
+        .h11{
+            margin-left: 7%;
+        }
+        .blogs{
+            background-color: aliceblue;
+            padding-top: 20px;
+        }
+        .blogwords{
+            margin-left: 10%;
+            display: flex;
+            gap:60%;
+        }
+        .Highlights{
+            color:brown;
+        }
+        .blogbutton{
+            width:1%;
+            padding: 1px;
+            border-radius: 2px;
+        }
+        
+        .blogbuttons{
+            padding: 5px;
+            border-radius: 5px;
+            color: aqua;
+        }
+        .middle{
+            margin-top: 2%;
+        }
+        .h17{
+            color: brown;
+        }
+        .h18{
+            color: blue;
+        }
+        
+        .green{
+            margin-top: 2%;
+        }
+        .prefooter{
+            background-color: aliceblue;
+            padding:90px;
+        }
+        .girl1{
+            width: 90%;
+            border-radius: 20px;
+        
+        }
+        .girl2{
+            width: 90%;
+            border-radius: 20px;
+            margin-left: 10%;
+        }
+        .prefooters{
+            display: flex;
+            background-color: rgb(7, 39, 59);
+            color: aliceblue;
+            border-radius: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+            padding: 20px;
+            
+        }
+        .team{
+            color: yellow;
+        }
+        .cloudbutton3{
+            width:80%;
+            height:80px;
+            background-color: rgb(8, 94, 94);
+            color: aliceblue;
+            font-size: 150%;
+            border-radius: 20px;
+        
+        }
+        .heroimage{
+            width:40%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            color: aliceblue;
+            padding: 20%;
+            width:60%;
+            height: 10px;
+            display:flex;
+            gap:5%;
+}
 }
